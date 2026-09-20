@@ -1,0 +1,47 @@
+{
+  "version": "0.2.0",
+  "sourceRepository": "https://github.com/Charlex123/mirrormingo",
+  "sourceCommit": "a832487a62baec0e50f7a41623e55de62118daca",
+  "pullRequest": "https://github.com/Charlex123/mirrormingo/pull/1159",
+  "workflowRun": "https://github.com/Charlex123/mirrormingo/actions/runs/35519474380",
+  "workspaces": [
+    "learning",
+    "school"
+  ],
+  "installers": [
+    {
+      "platform": "macos-universal",
+      "file": "MirrorMingo-AI-macOS-universal.dmg",
+      "bytes": 425321970,
+      "sha256": "38396ccd6eb3b5055df0dba0514a7675df7889443a7350f59723fce69b4ee63b",
+      "build": {
+        "version": "0.2.0",
+        "sourceCommit": "a832487a62baec0e50f7a41623e55de62118daca",
+        "workingTreeModified": false,
+        "builtAt": "2026-09-20T15:26:42.938Z",
+        "workspaces": [
+          "learning",
+          "school"
+        ]
+      }
+    },
+    {
+      "platform": "windows-x64",
+      "file": "MirrorMingo-AI-Windows-setup.exe",
+      "bytes": 301700816,
+      "sha256": "2c86bd7c97409183b2db78551f81f565ccf2c804a0f8b05390a210cfe2f3ca49",
+      "build": {
+        "version": "0.2.0",
+        "sourceCommit": "a832487a62baec0e50f7a41623e55de62118daca",
+        "workingTreeModified": true,
+        "builtAt": "2026-09-20T15:27:49.934Z",
+        "workspaces": [
+          "learning",
+          "school"
+        ],
+        "provenanceNote": "Windows contract generators rewrite four checked-out CRLF files with LF endings. The source diff is empty after Git newline normalization; the original workingTreeModified flag is retained.",
+        "provenanceDiagnostic": "https://github.com/Charlex123/mirrormingo/actions/runs/35519689305"
+      }
+    }
+  ]
+}
