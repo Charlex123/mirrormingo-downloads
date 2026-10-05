@@ -1,10 +1,10 @@
 {
-  "version": "0.2.1",
+  "version": "0.2.3",
   "sourceRepository": "https://github.com/Charlex123/mirrormingo",
-  "sourceCommit": "558ac2924c9a882e21d72c82c4fd91b3ea75f57a",
-  "sourceTag": "mirrormingo-ai-desktop-v0.2.1",
-  "pullRequest": "https://github.com/Charlex123/mirrormingo/pull/1162",
-  "workflowRun": "https://github.com/Charlex123/mirrormingo/actions/runs/35584576688",
+  "sourceCommit": "4742733f4ae56fcb18a86b3a8ba1d5dbbb78d510",
+  "sourceTag": "mirrormingo-ai-desktop-v0.2.3",
+  "pullRequest": "https://github.com/Charlex123/mirrormingo/pull/1256",
+  "workflowRun": "https://github.com/Charlex123/mirrormingo/actions/runs/37332913544",
   "workspaces": [
     "learning",
     "school"
@@ -13,13 +13,13 @@
     {
       "platform": "macos-universal",
       "file": "MirrorMingo-AI-macOS-universal.dmg",
-      "bytes": 425305166,
-      "sha256": "e7b42246a7c867d109fda8ae715acec262fb514c69beb0d0135450c0b3380f09",
+      "bytes": 466580637,
+      "sha256": "7222edc8a4828a9ff20fd4b2a61014d63b48adbc68c17c5d399e2fb1e14c68e1",
       "build": {
-        "version": "0.2.1",
-        "sourceCommit": "558ac2924c9a882e21d72c82c4fd91b3ea75f57a",
+        "version": "0.2.3",
+        "sourceCommit": "4742733f4ae56fcb18a86b3a8ba1d5dbbb78d510",
         "workingTreeModified": false,
-        "builtAt": "2026-09-21T09:42:18.008Z",
+        "builtAt": "2026-10-05T15:30:30.544Z",
         "workspaces": [
           "learning",
           "school"
@@ -29,19 +29,18 @@
     {
       "platform": "windows-x64",
       "file": "MirrorMingo-AI-Windows-setup.exe",
-      "bytes": 301684080,
-      "sha256": "cb1b16e60e9dd08ed35caf34d98d72f04c251aea857ab0d1fce7e885b970a399",
+      "bytes": 327422488,
+      "sha256": "44ebc5ebf25c898ad61ab93654bc50288d3da90a8a402cca2ecbada6fa3aafe8",
       "build": {
-        "version": "0.2.1",
-        "sourceCommit": "558ac2924c9a882e21d72c82c4fd91b3ea75f57a",
+        "version": "0.2.3",
+        "sourceCommit": "4742733f4ae56fcb18a86b3a8ba1d5dbbb78d510",
         "workingTreeModified": true,
-        "builtAt": "2026-09-21T09:43:24.656Z",
+        "builtAt": "2026-10-05T15:31:06.724Z",
         "workspaces": [
           "learning",
           "school"
         ],
-        "provenanceNote": "Windows contract generation rewrites CRLF files with LF endings. The unchanged generators were verified to produce an empty normalized source diff; the original workingTreeModified flag is retained.",
-        "provenanceDiagnostic": "https://github.com/Charlex123/mirrormingo/actions/runs/35519689305"
+        "provenanceNote": "Windows contract generation rewrites CRLF files with LF endings; workingTreeModified reflects line endings only (as in v0.2.1)."
       }
     }
   ]
