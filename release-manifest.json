@@ -1,25 +1,28 @@
 {
-  "version": "0.2.3",
+  "version": "0.2.4",
   "sourceRepository": "https://github.com/Charlex123/mirrormingo",
-  "sourceCommit": "4742733f4ae56fcb18a86b3a8ba1d5dbbb78d510",
-  "sourceTag": "mirrormingo-ai-desktop-v0.2.3",
-  "pullRequest": "https://github.com/Charlex123/mirrormingo/pull/1256",
-  "workflowRun": "https://github.com/Charlex123/mirrormingo/actions/runs/37332913544",
+  "sourceCommit": "4a9f06ffc9d78ca932bccc6d07be4207c0e3b06e",
+  "sourceTag": "mirrormingo-ai-desktop-v0.2.4",
+  "workflowRun": "https://github.com/Charlex123/mirrormingo/actions/runs/37380150033",
   "workspaces": [
     "learning",
     "school"
   ],
+  "updates": {
+    "feed": "https://github.com/Charlex123/mirrormingo-downloads/releases/latest/download/latest.json",
+    "signedWith": "minisign 36C47418E4E10EDE"
+  },
   "installers": [
     {
       "platform": "macos-universal",
       "file": "MirrorMingo-AI-macOS-universal.dmg",
-      "bytes": 466580637,
-      "sha256": "7222edc8a4828a9ff20fd4b2a61014d63b48adbc68c17c5d399e2fb1e14c68e1",
+      "bytes": 469824160,
+      "sha256": "b36a39ab3b90a40eed03d5151e38248fa0cea843a943bd6ea0a3b9ce32bfafbc",
       "build": {
-        "version": "0.2.3",
-        "sourceCommit": "4742733f4ae56fcb18a86b3a8ba1d5dbbb78d510",
+        "version": "0.2.4",
+        "sourceCommit": "4a9f06ffc9d78ca932bccc6d07be4207c0e3b06e",
         "workingTreeModified": false,
-        "builtAt": "2026-10-05T15:30:30.544Z",
+        "builtAt": "2026-10-05T22:08:33.312Z",
         "workspaces": [
           "learning",
           "school"
@@ -29,13 +32,13 @@
     {
       "platform": "windows-x64",
       "file": "MirrorMingo-AI-Windows-setup.exe",
-      "bytes": 327422488,
-      "sha256": "44ebc5ebf25c898ad61ab93654bc50288d3da90a8a402cca2ecbada6fa3aafe8",
+      "bytes": 328543512,
+      "sha256": "971d499d5f467e9372cdcde2fb17cd1f81ffd113be781df8abc5b8fc01ecb77c",
       "build": {
-        "version": "0.2.3",
-        "sourceCommit": "4742733f4ae56fcb18a86b3a8ba1d5dbbb78d510",
+        "version": "0.2.4",
+        "sourceCommit": "4a9f06ffc9d78ca932bccc6d07be4207c0e3b06e",
         "workingTreeModified": true,
-        "builtAt": "2026-10-05T15:31:06.724Z",
+        "builtAt": "2026-10-05T22:10:11.539Z",
         "workspaces": [
           "learning",
           "school"
