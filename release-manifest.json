@@ -1,9 +1,9 @@
 {
-  "version": "0.2.5",
+  "version": "0.2.6",
   "sourceRepository": "https://github.com/Charlex123/mirrormingo",
-  "sourceCommit": "faf5c2c78f101637a1d08bf6e677f7a44cd202df",
-  "sourceTag": "mirrormingo-ai-desktop-v0.2.5",
-  "workflowRun": "https://github.com/Charlex123/mirrormingo/actions/runs/37554678599",
+  "sourceCommit": "ac124533705abb8487076fdaf9d7902f1a15dc24",
+  "sourceTag": "mirrormingo-ai-desktop-v0.2.6",
+  "workflowRun": "https://github.com/Charlex123/mirrormingo/actions/runs/37594610508",
   "workspaces": [
     "learning",
     "school"
@@ -12,17 +12,26 @@
     "feed": "https://github.com/Charlex123/mirrormingo-downloads/releases/latest/download/latest.json",
     "signedWith": "minisign 36C47418E4E10EDE"
   },
+  "windowsSigning": {
+    "publisher": "SATRYX AI LIMITED",
+    "issuer": "SSL.com Code Signing Intermediate CA RSA R1",
+    "signed": [
+      "installer",
+      "app",
+      "uninstaller"
+    ]
+  },
   "installers": [
     {
       "platform": "macos-universal",
       "file": "MirrorMingo-AI-macOS-universal.dmg",
-      "bytes": 469920913,
-      "sha256": "bc66f8217566274946a83a56af492109a457caa8a474104c655ed75a3d4969d9",
+      "bytes": 471085384,
+      "sha256": "37f4f361d6821651351d4fe2af126d69ea53a9af93c2848fd69936151eb165ed",
       "build": {
-        "version": "0.2.5",
-        "sourceCommit": "faf5c2c78f101637a1d08bf6e677f7a44cd202df",
+        "version": "0.2.6",
+        "sourceCommit": "ac124533705abb8487076fdaf9d7902f1a15dc24",
         "workingTreeModified": false,
-        "builtAt": "2026-10-07T01:01:43.118Z",
+        "builtAt": "2026-10-07T08:37:22.909Z",
         "workspaces": [
           "learning",
           "school"
@@ -32,13 +41,13 @@
     {
       "platform": "windows-x64",
       "file": "MirrorMingo-AI-Windows-setup.exe",
-      "bytes": 328570760,
-      "sha256": "226acb88239a7d8ff0c4a9828a4b1c66b6b1cc42a655b0e8539b74c90b22b411",
+      "bytes": 329847208,
+      "sha256": "5bf78ea39b440b9a260e9fc66139c3f961dc07931af286b83128af76de4e70b5",
       "build": {
-        "version": "0.2.5",
-        "sourceCommit": "faf5c2c78f101637a1d08bf6e677f7a44cd202df",
+        "version": "0.2.6",
+        "sourceCommit": "ac124533705abb8487076fdaf9d7902f1a15dc24",
         "workingTreeModified": true,
-        "builtAt": "2026-10-07T01:02:15.089Z",
+        "builtAt": "2026-10-07T08:38:25.772Z",
         "workspaces": [
           "learning",
           "school"
