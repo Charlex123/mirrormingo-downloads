@@ -1,9 +1,9 @@
 {
-  "version": "0.2.4",
+  "version": "0.2.5",
   "sourceRepository": "https://github.com/Charlex123/mirrormingo",
-  "sourceCommit": "4a9f06ffc9d78ca932bccc6d07be4207c0e3b06e",
-  "sourceTag": "mirrormingo-ai-desktop-v0.2.4",
-  "workflowRun": "https://github.com/Charlex123/mirrormingo/actions/runs/37380150033",
+  "sourceCommit": "faf5c2c78f101637a1d08bf6e677f7a44cd202df",
+  "sourceTag": "mirrormingo-ai-desktop-v0.2.5",
+  "workflowRun": "https://github.com/Charlex123/mirrormingo/actions/runs/37554678599",
   "workspaces": [
     "learning",
     "school"
@@ -16,13 +16,13 @@
     {
       "platform": "macos-universal",
       "file": "MirrorMingo-AI-macOS-universal.dmg",
-      "bytes": 469824160,
-      "sha256": "b36a39ab3b90a40eed03d5151e38248fa0cea843a943bd6ea0a3b9ce32bfafbc",
+      "bytes": 469920913,
+      "sha256": "bc66f8217566274946a83a56af492109a457caa8a474104c655ed75a3d4969d9",
       "build": {
-        "version": "0.2.4",
-        "sourceCommit": "4a9f06ffc9d78ca932bccc6d07be4207c0e3b06e",
+        "version": "0.2.5",
+        "sourceCommit": "faf5c2c78f101637a1d08bf6e677f7a44cd202df",
         "workingTreeModified": false,
-        "builtAt": "2026-10-05T22:08:33.312Z",
+        "builtAt": "2026-10-07T01:01:43.118Z",
         "workspaces": [
           "learning",
           "school"
@@ -32,13 +32,13 @@
     {
       "platform": "windows-x64",
       "file": "MirrorMingo-AI-Windows-setup.exe",
-      "bytes": 328543512,
-      "sha256": "971d499d5f467e9372cdcde2fb17cd1f81ffd113be781df8abc5b8fc01ecb77c",
+      "bytes": 328570760,
+      "sha256": "226acb88239a7d8ff0c4a9828a4b1c66b6b1cc42a655b0e8539b74c90b22b411",
       "build": {
-        "version": "0.2.4",
-        "sourceCommit": "4a9f06ffc9d78ca932bccc6d07be4207c0e3b06e",
+        "version": "0.2.5",
+        "sourceCommit": "faf5c2c78f101637a1d08bf6e677f7a44cd202df",
         "workingTreeModified": true,
-        "builtAt": "2026-10-05T22:10:11.539Z",
+        "builtAt": "2026-10-07T01:02:15.089Z",
         "workspaces": [
           "learning",
           "school"
